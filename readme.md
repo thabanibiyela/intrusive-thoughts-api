@@ -171,24 +171,24 @@ Results are written to `test/test_reports/testing.out`. All 21 tests pass.
 
 | # | ID | Detail | Result |
 |---|---|---|---|
-| 1 | TC01-Mary | Olga, Nick and Mary register and access the API. | ok |
-| 2 | TC01 | Test user can access the API root (no auth required). | ok |
-| 3 | TC01-Nick | Olga, Nick and Mary register and access the API. | ok |
-| 4 | TC01-Olga | Olga, Nick and Mary register and access the API. | ok |
-| 5 | TC02-Mary | Olga, Nick and Mary get their auth tokens via OAuth. | ok |
-| 6 | TC02-Nick | Olga, Nick and Mary get their auth tokens via OAuth. | ok |
-| 7 | TC02-Olga | Olga, Nick and Mary get their auth tokens via OAuth. | ok |
-| 8 | TC03 | Olga calls a protected endpoint without a token — should fail. | ok |
-| 9 | TC04-Olga | Olga posts a thought using her token. | ok |
-| 10 | TC05-Nick | Nick posts a thought using his token. | ok |
-| 11 | TC06-Mary | Mary posts a thought using her token. | ok |
-| 12 | TC07-Nick | Nick browses all thoughts in reverse chronological order. | ok |
-| 13 | TC07-Olga | Olga browses all thoughts in reverse chronological order. | ok |
-| 14 | TC08 | Nick and Olga comment on Mary's thought in round-robin. | ok |
-| 15 | TC09-Mary | Mary comments her own thought — should fail. | ok |
-| 16 | TC10-Mary | Mary sees thoughts in reverse chronological order. | ok |
-| 17 | TC11-Mary | Mary views the comments on her thought. | ok |
-| 18 | TC12 | Nick and Olga score Mary's thought. | ok |
-| 19 | TC13-Mary | Mary scores her own thought — should fail. | ok |
-| 20 | TC14-Mary | Mary sees her thought now has two scores. | ok |
-| 21 | TC15-Nick | Nick sees Mary's thought at the top due to its score. | ok |
+| 1 | TC01-Mary | Olga, Nick and Mary register and access the API. | ✅ |
+| 2 | TC01 | Test user can access the API root (no auth required). | ✅ |
+| 3 | TC01-Nick | Olga, Nick and Mary register and access the API. | ✅ |
+| 4 | TC01-Olga | Olga, Nick and Mary register and access the API. | ✅ |
+| 5 | TC02-Mary | Olga, Nick and Mary get their auth tokens via OAuth. | ✅ |
+| 6 | TC02-Nick | Olga, Nick and Mary get their auth tokens via OAuth. | ✅ |
+| 7 | TC02-Olga | Olga, Nick and Mary get their auth tokens via OAuth. | ✅ |
+| 8 | TC03 | Olga calls a protected endpoint without a token — should fail. | ✅ |
+| 9 | TC04-Olga | Olga posts a thought using her token. | ✅ |
+| 10 | TC05-Nick | Nick posts a thought using his token. | ✅ |
+| 11 | TC06-Mary | Mary posts a thought using her token. | ✅ |
+| 12 | TC07-Nick | Nick browses all thoughts in reverse chronological order. | ✅ |
+| 13 | TC07-Olga | Olga browses all thoughts in reverse chronological order. | ✅ |
+| 14 | TC08 | Nick and Olga comment on Mary's thought in round-robin. | ✅ |
+| 15 | TC09-Mary | Mary comments her own thought — should fail. | ✅ |
+| 16 | TC10-Mary | Mary sees thoughts in reverse chronological order. | ✅ |
+| 17 | TC11-Mary | Mary views the comments on her thought. | ✅ |
+| 18 | TC12 | Nick and Olga score Mary's thought. | ✅ |
+| 19 | TC13-Mary | Mary scores her own thought — should fail. | ✅ |
+| 20 | TC14-Mary | Mary sees her thought now has two scores. | ✅ |
+| 21 | TC15-Nick | Nick sees Mary's thought at the top due to its score. | ✅ |
