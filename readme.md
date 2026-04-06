@@ -1,6 +1,6 @@
 # Intrusive Thoughts
 
-A SaaS social networking API where users — called **thinkers** — post their most intrusive thoughts for others to browse, score, and comment on. The more intrusive, the better.
+A social networking API where users — called **thinkers** — post their most intrusive thoughts for others to browse, score, and comment on. The more intrusive, the better.
 
 > Example thoughts posted by user `elonmusk`:
 > - *"What if our entire universe is just a simulation running on someone else's computer?"*
