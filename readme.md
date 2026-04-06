@@ -112,7 +112,9 @@ Expected output:
 
 The API root is available at `http://localhost:3000`.
 
-![API root](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.002.png)
+```json
+{ "message": "Welcome to the Homepage!" }
+```
 
 ---
 
@@ -135,23 +137,6 @@ The API root is available at `http://localhost:3000`.
 
 > All authenticated requests require an `auth_token` header. Obtain it from the `/signin` response.  
 > Pass `test_flag=TRUE` to route requests to the test database (admin only).
-
-### Screenshots
-
-| # | Endpoint | Screenshot |
-|---|---|---|
-| 001 | Register new thinker | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.003.png) |
-| 002 | Sign in | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.004.png) |
-| 003 | Post a thought | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.005.png) |
-| 004 | Comment on a thought | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.006.png) |
-| 005 | Score a thought | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.007.png) |
-| 006 | Browse all thinkers | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.008.png) |
-| 007 | Browse all thoughts | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.009.png) |
-| 008 | Get thinker by ID/username/email | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.010.png) |
-| 009 | Get thought by ID | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.011.png) |
-| 010 | Browse comments on a thought | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.012.png) |
-| 011 | Delete a thought | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.013.png) |
-| 012 | Delete a thinker account | ![](assets/Aspose.Words.ee17eec8-d6d3-4e6e-a02c-aa30d277b40a.014.png) |
 
 ---
 
